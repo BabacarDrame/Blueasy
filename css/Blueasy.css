@@ -22,6 +22,7 @@ body{
     opacity: 70%;
 }
 
+
 .milieu{
     width: auto;
     height: 150px;
@@ -90,4 +91,11 @@ body{
 .footer ul li a:hover{
     text-decoration: none;
     background-color:none;
+}
+
+@media all and (max-width: 767px) {
+
+    .row .col{
+        width:200px
+    }
 }
